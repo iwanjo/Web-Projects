@@ -6,3 +6,18 @@ I hope you enjoy going through it.
 
 Here is how the sight looks:
 
+![Personal Dev 1](/PortfolioWebsite/PersonalPortfolio/image1.PNG)
+
+
+
+
+
+
+![Personal Dev 2](/PortfolioWebsite/PersonalPortfolio/image2.PNG)
+
+
+
+
+
+
+![Personal Dev 3](/PortfolioWebsite/PersonalPortfolio/image3.PNG)
