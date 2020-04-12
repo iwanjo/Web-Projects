@@ -4,12 +4,12 @@ Welcome. This repo contains code for my live COVID-19 Tracker project, utilising
 
 Global Standpoint as of time of upload
 
-![React Dev 1](Web-Projects/src/CoronavirusTracker/image2.PNG)
+![React Dev 1](Web-Projects/src/CoronavirusTracker/image2.png)
 
 
 
 Kenyan Analysis
-![React Dev 2](Web-Projects/src/CoronavirusTracker/image1.PNG)
+![React Dev 2](Web-Projects/src/CoronavirusTracker/image1.png)
 
 
-![React Dev 3](Web-Projects/src/CoronavirusTracker/image3.PNG)
+![React Dev 3](Web-Projects/src/CoronavirusTracker/image3.png)
