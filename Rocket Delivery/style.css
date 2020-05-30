@@ -1,0 +1,439 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    
+
+}
+
+header{
+    display: flex;
+    width: 80%;
+    height: 10vh;
+    margin: auto;
+    align-items: center;
+}
+
+.logo-container, .nav-links{
+    display: flex;
+}
+
+.logo-container{
+    flex: 1;
+}
+
+nav{
+    flex: 2;
+}
+
+.nav-links{
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav-link{
+    color: #e0dbe2;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    color: #5f49b9;
+}
+
+.logo-image{
+    height: 300px;
+    margin-top: -10px;
+
+}
+
+.presentation{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    min-height: 80vh;
+    align-items: center;
+    padding-left: 4.5rem;
+}
+.introduction{
+    flex: 1;
+}
+
+.cover{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+}
+
+.cover img{
+    height: 100%;
+    width: 120%;
+    filter: drop-shadow(0px 2px 2px black);
+    animation: drop 1.5s ease;
+}
+
+.intro-text h1{
+    font-size: 50px;
+    font-weight: 700;
+
+}
+
+.intro{
+    color: #536dfe;
+}
+
+.easy{
+    color: #65cfdd;
+}
+
+.intro-text p{
+    padding-top: 20px;
+    font-size: 20px;
+    color: rgb(176, 179, 184);
+    padding-bottom: 2rem;
+    width: 80%;
+    
+    
+}
+
+
+
+.cta-select{
+    border: 2px solid #a4a5f5;
+    background: #4286f4;
+    color: white;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.cta-select:hover{
+    background-color: white;
+    color: #4286f4;
+}
+
+.form-grouper{
+    width: 300px;
+    height: 50px;
+    font-family: 'Open Sans', sans-serif; 
+    padding-left: 0.4rem;  
+}
+
+
+.home-page-circle-1{
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    background-color: #4286f460;
+    bottom: 6vw;
+    left: 5vw;
+    z-index: -1;
+}
+
+.home-page-circle-2{
+    position: absolute;
+    width: 12vw;
+    height: 12vw;
+    border-radius: 50%;
+    background-color: #65cfdd25;
+    bottom: 25vw;
+    left: 35vw;
+    z-index: -1;
+}
+
+.home-page-circle-3{
+    position: absolute;
+    width: 2vh;
+    height: 2vh;
+    border-radius: 50%;
+    background-color: #65cfdd;
+    top: 13.8vw;
+    left: 8.3vw;
+    z-index: -1;
+    
+}
+
+.services-circle{
+    position: absolute;
+    width: 5vh;
+    height: 4vh;
+    border-radius: 50%;
+    background-color: #65cfdd;
+    bottom: 2.45vw;
+    left: 44.3vw;
+    z-index: -1;
+}
+
+.services{
+    padding-top: 12rem;
+    background-color: #f2fcfe2f;
+}
+
+.our-services-area{
+    flex: 1;
+}
+
+.services-page-circle-1{
+    position: absolute;
+    width: 4vh;
+    height: 4vh;
+    border-radius: 50%;
+    background-color: #65cfdd;
+    bottom: -8.2vw;
+    left: 44.3vw;
+    z-index: -1;
+} 
+
+.main{
+    text-align: center;
+    padding-bottom: 2.5rem;
+    color: #4286f4;
+} 
+
+.providing-text{
+    text-align: center;
+    padding-bottom: 1rem;
+    color: rgb(176, 179, 184);
+    
+}
+
+.packages{
+    padding-top: 4rem;
+    padding-bottom: 20rem;
+    width: 15rem;
+    margin-left: 13%;
+}
+
+ .image-section{
+    padding-top: 5rem;
+} 
+
+ .packages{
+    width: 15rem;
+    padding-bottom: 2rem;
+    margin-left: 13%;
+}
+
+
+
+.heavy{
+    width:17rem;
+    padding-bottom: 4rem;
+    margin-left: 13rem;
+
+}
+
+.warehouse{
+        width: 17rem;
+        margin-left: 13rem;
+} 
+
+ .packages-text{
+    color: #4286f4;
+    margin-left: 13rem;
+}
+
+.heavy-text{
+    color: #4286f4;
+    margin-left: 43rem;
+    margin-top: -2.2rem;
+    
+}
+
+.warehouse-text{
+    color: #4286f4;
+    margin-left: 72.5rem;
+    margin-top: -2.2rem;
+    padding-bottom: 5rem;
+}
+
+.document-message{
+    color: rgb(176, 179, 184);
+    text-align: justify;
+    margin-left: 12rem;
+    margin-right: 67rem;
+}
+
+.heavy-message{
+    color: rgb(176, 179, 184);
+    text-align: justify;
+    margin-left: 43rem;
+    margin-right: 40rem;
+    margin-top: -4.4rem;
+}
+
+.warehouse-message{
+    color: rgb(176, 179, 184);
+    padding-bottom: 5rem;
+    margin-left: 72.5rem;
+    margin-right: 8rem;
+    margin-top: -4.4rem;
+
+}
+
+.delivery-types{
+    padding-top: 13rem;
+    display: flex;
+    width: 100%;
+    margin: auto;
+    min-height: 70vh;
+    align-items: center;
+    padding-left: 4.5rem;
+    background-color: #f2fcfe2f;
+}
+
+.delivery-intro h1{
+    flex: 1;
+    color: #4286f4;
+    font-size: 30px;
+    padding-bottom: 2rem;
+    padding-left: 5rem;
+    
+}
+
+.delivery-circle-4{
+    position: absolute;
+    width: 4vh;
+    height: 4vh;
+    border-radius: 50%;
+    background-color: #4286f48e;
+    bottom: -71vw;
+    left: 9vw;
+    z-index: -1;
+
+}
+
+.delivery-slogan{
+    color: rgb(176, 179, 184);
+    margin-right: 60rem;
+    text-align: justify;
+    padding-bottom: 2rem;
+    padding-left: 5rem;
+}
+
+.choose-needs{
+    padding-left: 6rem;
+    color: rgb(176, 179, 184);
+
+}
+
+.delivery-circle-5{
+    position: absolute;
+    width: 2.5vh;
+    height: 2.5vh;
+    border-radius: 50%;
+    background-color: #4286f462;
+    bottom: -82.5vw;
+    left: 9vw;
+    z-index: -1;
+
+}
+
+.fast-option{
+ margin-top: -15rem;
+  margin-left: 45rem;
+  
+}
+
+.second-option{
+  margin-left: 65rem;
+  margin-top: -15rem;
+}
+
+.third-option{
+  margin-left: 45rem;
+}
+
+.fourth-option{
+  margin-left: 65rem;
+  margin-top: -15rem;
+}
+
+.customer-testimonials{
+  padding-top: 13rem;
+  display: flex;
+  width: 90%;
+  margin: auto;
+  min-height: 80vh;
+  align-items: center;
+  padding-left: 4.5rem;
+  padding-bottom: 5rem;
+}
+
+.heading{
+  
+  font-size: 40px;
+  color: #536dfe;
+  
+}
+
+.testimonial-img{
+  padding-top: 3rem;
+  height: 450px;
+}
+
+.rocket-cta{
+  padding-left: 45rem;
+  margin-top: -25rem;
+  padding-bottom: 3rem;
+  font-size: 20px;
+  color: rgb(176, 179, 184)
+  
+}
+
+.rocket-cta:hover{
+  color: #536dfe;
+}
+
+.rocket-convince-text{
+  padding-left: 45rem;
+  margin-right: 12rem;
+  text-align: justify;
+  padding-bottom: 9rem;
+  font-size: 18px;
+  color: rgb(176, 179, 184);
+
+}
+
+.rocket-convince-text:hover{
+  color: #536dfe;
+
+}
+
+.name{
+  padding-left: 45rem;
+  font-size: 18px;
+  color: rgb(176, 179, 184);
+
+}
+
+.name:hover{
+  color: #536dfe;
+
+}
+
+.position{
+  padding-left: 45rem;
+  padding-bottom: 5rem;
+  font-size: 18px;
+  color: rgb(176, 179, 184);
+
+
+}
+.position:hover{
+  color: #536dfe;
+
+}
+
+.footer-image{
+  height: 190px;
+}
