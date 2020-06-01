@@ -1,0 +1,414 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;  
+}
+
+.logo{
+    display: flex;
+    padding-top: 1rem;
+    height: 75px;
+    padding-left: 2rem;
+    cursor: pointer;
+    
+}
+
+.logo:hover{
+    transform: scale(1.2); 
+}
+
+#header{
+    display: flex;
+    width: 90%;
+    height: 10vh;
+    align-items: center;
+    margin: auto;
+}
+
+.nav-links{
+    display: flex;
+    padding-top: 1.2rem;
+
+}
+
+nav{
+    flex: 1;
+}
+
+
+.nav-links{
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.nav-link{
+    color: #0082c8;
+    padding: 4rem 3rem;
+    text-decoration: none;
+    font-size: 15px;
+    
+}
+
+.nav-link:hover{
+    color: #A43931;
+}
+
+nav .topnav .icon{
+    display: none;
+}
+
+#main-body{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    min-height: 80vh;
+    align-items: center;
+    padding-left: 4.5rem;
+}
+
+#main-body .container{
+    flex: 1;
+}
+
+.cover{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+}
+
+.cover img{    
+    animation: drop 1.5s ease;
+}
+
+.intro-text h1{
+    color: #114357;
+    font-size: 50px;
+    font-weight: 700;
+    padding-bottom: 2.2rem;
+}
+
+.intro-text h1 span{
+    color: #a73737;
+}
+
+.intro-text p{
+    font-size: 18px;
+    text-align: justify;
+    padding-bottom: 2rem;
+}
+
+.common-btn{
+    padding: 18px 30px;
+    background: transparent;
+    outline: none;
+    border: 2px solid #a73737;
+    font-weight: bold;
+    cursor: pointer;
+    color: #a73737;
+}
+
+.common-btn:hover{
+    border: 2px solid #114357 ;
+    background: #114357;
+    color: white;
+}
+
+
+#features{
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.feature-row{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature-col{
+    flex-basis: 25%;
+    text-align: center;
+}
+
+.feature-col img{
+    height: 12vh;
+}
+
+.feature-col h4{
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.feature-btn{
+    margin: 80px auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#contact{
+    padding-top: 6rem;
+    padding-left: 5rem;
+}
+
+.contact-text{
+    color: #114357;
+}
+
+.contact-row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact-left-col, .contact-right-col{
+    flex-basis: 50%;
+}
+
+.contact-right-col img{
+    width: 80%;
+
+}
+
+form{
+    max-width: 350px;
+    margin: 30px 0;
+
+}
+
+form input{
+    width: 100%;
+    padding: 12px 10px;
+    margin-bottom: 5px;
+    outline: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    border: 2px solid #114357;
+}
+
+.btn-box{
+    width: 94%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-box button{
+    flex-basis: 50%;
+    padding: 10px 10;
+}
+
+#footer{
+    padding: 50px 0 30px;
+
+}
+
+hr{
+    width: 100%;
+    border: 0;
+    border-top: 1px solid #114357;
+}
+
+.footer-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-left-col{
+    flex-basis: 50%;
+    margin-top: 60px;
+    margin-left: 2rem;
+}
+
+.footer-right-col{
+    flex-basis: 35%;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.link-title h4{
+    color: #114357;
+    margin-bottom: 20px;
+}
+
+.link-title small{
+    font-size: 13px;
+    color: #777;
+}
+
+.footer-info{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/* socials */
+.social-icons{
+    width: 50px;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.social-icons img{
+    display: block;
+    width: 20px;
+    margin: 0 auto 20px;
+    cursor: pointer;
+}
+
+.social-icons img:hover{
+    transform: scale(1.5);
+}
+
+.topnav{
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 770px){
+    #header{
+        background-image: none;
+    }
+
+.topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+    .container{
+        margin-right: 50px;
+        margin-left: 30px;
+    }
+
+    .main-image{
+       display: none;
+    }
+    
+    .logo{
+        margin-top: 0px;
+        height: 80px;
+        margin-left: -70px;
+    }
+    
+    .header-text{
+        margin-top: 80px;
+    }
+    
+    .intro-text h1{
+        padding-top: 9rem;
+        font-size: 20px;
+    }
+    .intro-text span{
+        
+        font-size: 20px;
+    }
+
+    .common-btn{
+        padding: 10px 16px;
+        background: transparent;
+        outline: none;
+        border: 2px solid #f67c92;
+        font-weight: bold;
+        cursor: pointer;
+        color: #f67c92;
+    }
+
+    .social-icons img{
+        width: 14px;
+        margin: 15 auto;
+    }
+
+    .about-left-col, .about-right-col{
+        flex-basis: 100%;
+    }
+
+    .about-text{
+        margin: 50px 50px 0;
+        display: inline-block;
+    }
+    
+    .about-text h2{
+        font-size: 18px;
+    }
+
+    .feature-col{
+        flex-basis: 100%;
+        margin: 20px;
+    }
+
+    .course-left-col{
+        flex-basis: 100%;
+    }
+
+    .course-right-col{
+        flex-basis: 100%;
+        margin-top: 70px;
+    }
+
+    .contact-left-col, .contact-right-col{
+        flex-basis: 100%;
+    }
+
+    .contact-right-col{
+        margin-top: 50px;
+    }
+
+    .footer-left-col, .footer-right-col{
+        flex-basis: 100%;
+    
+    }
+
+    .link-title{
+        flex-basis: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
