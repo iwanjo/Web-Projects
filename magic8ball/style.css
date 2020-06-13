@@ -1,0 +1,61 @@
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+h1{
+    font-weight: 200;
+    font-size: 3rem;
+}
+
+#content{
+    width: 660px;
+    margin: 0 auto;
+    margin-top: 5rem;
+    border: 2px dotted black;
+    text-align: center;
+    font-weight: 100;
+}
+
+div.eight-ball{
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+div.answer{
+    background-color: #333;
+    border: 1px solid #333;
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
+    margin: 25% auto;
+}
+
+p#eight{
+   font-size: 6em; 
+   margin: 20% auto;
+   color: white;
+}
+
+p#answer{
+    padding: 23px;
+    color: rgb(14, 122, 122);
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+
+#question{
+    margin: 20px;
+    padding: 10px;
+    width: 400px;
+    font-size: 22px;
+}
+
+#info{
+    font-size: 22px;
+}
