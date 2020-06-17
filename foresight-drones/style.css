@@ -34,7 +34,9 @@ a:hover{
     color: white;
 }
 
-
+#about{
+    background-color: #f5f5f5;
+}
 
 #about-heading{
     padding-top: 6rem;
@@ -53,7 +55,7 @@ a:hover{
     text-align: justify;
     font-size: 16.5px;
     color: #2C5364;
-    padding-bottom: 1rem;
+    padding-bottom: 1.5rem;
 }
 
 #btn{
@@ -65,6 +67,56 @@ a:hover{
 #btn:hover{
     background-color: #2C5364;
     color: white;
+}
+
+#approach{
+    background-color: #f5f5f5;
+}
+
+#approach-heading{
+    padding-top: 5rem;
+    margin-left: -1.1rem;
+    color: #2C5364;
+    text-decoration: underline;
+}
+
+#approach-text{
+    padding-top: 1.5rem;
+    margin-left: -1rem;
+    font-size: 15px;
+    width: 43%;
+    text-align: justify;
+    color: #2C5364;
+}
+
+
+
+#col1{
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    /* margin-left: 1rem; */
+}
+
+#approachBtn{
+    color: white;
+}
+
+#approachBtn:hover{
+    color: #2C5364;
+    background-color: white;
+}
+
+#cardOne{
+    color: #2C5364;
+    font-size: 18.5px;
+}
+
+#cardText{
+    color: #2C5364;
+    font-size: 15px;
+    text-align: justify;
 }
 
 @media only screen and (max-width: 480px){
@@ -82,6 +134,30 @@ a:hover{
     }
     #btn{
         margin-left: 2.5rem;
+        font-size: 14px;
+    }
+
+    #approach-heading{
+        padding-left: 6.8rem;
+        font-size: 30px;
+    }
+
+    #approach-text{
+        padding-left: 3.3rem;
+        padding-right: 1rem;
+        font-size: 14.5px;
+        width: 100%;
+    }
+    #col1{
+        padding-left: 4.3rem;
+        padding-top: 2rem;
+    }
+    #cardOne{
+        text-align: center;
+        font-size: 18px;
+    }
+    #cardText{
+        text-align: justify;
         font-size: 14px;
     }
 }
