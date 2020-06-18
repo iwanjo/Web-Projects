@@ -2,6 +2,13 @@
     font-family: 'Cabin', sans-serif;
 }
 
+body{
+    moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  user-select: none;
+}
+
 a:hover{
     color: #0575E6!important;
 }
@@ -153,6 +160,32 @@ a:hover{
     text-align: justify;
 }
 
+
+/* Projects Area */
+#project-area{
+    padding: 5rem 0;
+}
+
+#project-area .button-group button{
+    background: transparent;
+    border: none;
+    font-size: 16px;
+    margin-bottom: 4rem;
+}
+
+#project-area .button-group button + button{
+    margin-left: 1.5rem;
+}
+
+.text{
+    font-size: 25px;  
+}
+
+
+
+
+  
+
 @media only screen and (max-width: 480px){
     #about-heading{
         color: #2C5364;
@@ -231,4 +264,130 @@ a:hover{
         text-align: justify;
         font-size: 14px;
     }
+    .text-capitalize{
+        color: #2C5364;
+        padding-left: 5rem;
+    }
+    .button-group{
+        padding-left: 2rem;
+        color: #2C5364;
+    }
+
+    .text-nakuru{
+        padding-left: 5rem;
+        padding-bottom: .5rem;
+    }
+    .text-secondary-kenya{
+        padding-left: 8rem;
+    }
+    .project-image-1{
+        margin-left: 2rem;
+    }
+
+    .project-image-2{
+        margin-left: 2rem;
+    }
+
+    .text-nyeri{
+        padding-left: 6rem;
+    }
+    .text-secondary-kenya2{
+        padding-left: 8rem;
+    }
+
+    .project-image-3{
+        margin-left: 2rem;
+    }
+
+    .text-uganda{
+        padding-left: 2rem;
+    }
+
+    .text-secondary-uganda{
+        padding-left: 8rem;
+    }
+
+    .project-image-4{
+        margin-left: 2rem;
+    }
+
+    .text-malawi{
+        padding-left: 2rem;
+    }
+    .text-secondary-malawi{
+        padding-left: 8rem;
+    }
+
+    .project-image-5{
+        margin-left: 2rem;
+    }
+
+    .text-elgon{
+        padding-left: 6rem;
+    }
+
+    .text-secondary-elgon{
+        padding-left: 8rem;
+    }
+
+    .project-image-6{
+        margin-left: 2rem;
+        width: 300px;
+    }
+
+    .text-rwanda{
+        padding-left: 3.5rem;
+    }
+
+    .text-secondary-rwanda{
+        padding-left: 8rem;
+    }
+
+    .project-image-7{
+        margin-left: 2rem;
+    }
+
+    .text-turkana{
+        padding-left: 1rem;
+    }
+
+    .text-secondary-turkana{
+        padding-left: 8rem;
+    }
+
+    .project-image-8{
+        margin-left: 2rem;
+    }
+    .text-ethiopia{
+        padding-left: 4.5rem;
+    }
+
+    .text-secondary-ethiopia{
+        padding-left: 8rem;
+    }
+
+    .project-image-9{
+        margin-left: 2rem;
+        width: 300px;
+    }
+
+    .text-sa{
+        padding-left: 2rem;
+    }
+
+    .text-secondary-sa{
+        padding-left: 5rem;
+    }
+
+
+    
+}
+
+button:focus, 
+button:active
+button:hover
+.btn:active,
+.btn.active{
+    outline: 0px!important;
+    box-shadow: none !important;
 }
