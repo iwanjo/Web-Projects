@@ -1,0 +1,62 @@
+*{
+    font-family: 'Cabin', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#myLogo{
+    margin-right: 1rem;
+}
+
+#myLogo:hover{
+    transform: scale(1.4);
+}
+
+#header{
+    padding-top: .3rem;
+    background: #ddeffb;
+}
+
+#myNav a{
+    color: #76838e;
+}
+
+#myNav a:hover{
+    color: #4286f4;
+}
+
+#name{
+    color:#283c86!important;
+}
+
+
+
+.vl{
+    border-left: .5px solid #76838e;
+    height: 40px;
+    
+    
+}
+
+#landing{
+    background-color: #ddeffb;
+    height: 40rem;
+}
+
+#title{
+    color: #1f2430;
+    padding-top: 8rem;
+    padding-bottom: 3rem;
+    font-size: 85px;
+    font-weight: bold;
+}
+
+.active-cyan-4 input[type=text]:focus:not([readonly]) {
+    border: 1px solid #4dd0e1;
+    box-shadow: 0 0 0 1px #4dd0e1;
+    
+}
+
+#mainImg{
+    height: 650px;
+    
+}
