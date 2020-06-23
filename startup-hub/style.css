@@ -288,7 +288,9 @@
 }
 
 
-
+#jobCardOne{
+    margin-top: 2rem;
+}
 
 
 #circle{
@@ -301,6 +303,25 @@
     border: 1px solid #b92b27;
 }
 
+#circle1{
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    width: 1vw;
+    height: 1vw;
+    border-radius: 50%;
+    background-color: #283c86;
+    border: 1px solid #283c86;
+}
+
+#circle2{
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    width: 1vw;
+    height: 1vw;
+    border-radius: 50%;
+    background-color: #893c54;
+    border: 1px solid #893c54;
+}
 .marketing-job{
     color: #1f2430;
     margin-top: -1.2rem;
@@ -309,9 +330,50 @@
 
 .cardOneText{
     color: #1f2430;
-    font-size: 20px;
+    font-size: 23px;
+    font-weight: bold;
+    padding-bottom: 2rem;
 }
 
+.company-text{
+    margin-top: -1.7rem;
+    margin-left: 3.9rem;
+}
+
+.company-text1{
+    margin-top: -1.7rem;
+    margin-left: 2.2rem;
+}
+
+#swvl{
+    margin-top: 2.5rem;
+}
+
+#jobCardOne:hover{
+    box-shadow: 3px 3px #b92b27;
+    transform: scale(1.05);
+}
+
+#jobCardTwo{
+    margin-left: -3rem;
+    margin-top: 2rem;
+}
+
+#jobCardTwo:hover{
+    box-shadow: 3px 3px #283c86;
+    transform: scale(1.05);
+}
+
+#jobCardThree:hover{
+    box-shadow: 3px 3px #893c54;
+    transform: scale(1.05);
+
+}
+
+#jobCardThree{
+    margin-left: -5.6rem;
+    margin-top: 2rem;
+}
 
 
 
