@@ -131,8 +131,6 @@
     color: #1f2430;
     padding-left: 8rem;
     font-size: 38px;
-    
-    
 }
 
 #explore span{
@@ -341,6 +339,53 @@
     #myCompanyLogos{
         padding-bottom: 2rem;
         padding-left:1.2rem;
+    }
+
+    #explore-category{
+        color: #1f2430;
+        padding-left: 8rem;
+        font-size: 27px;
+        text-align: center;
+        padding-right: 8.5rem;
+        
+    }
+
+    #cardOne{
+        margin-left: 6.3rem;
+    }
+    #cardTwo{
+        margin-left: 6.3rem;
+    }
+
+    #cardThree{
+        margin-left: 6.3rem;
+    }
+    #cardFour{
+        margin-left: 6.3rem;
+    }
+    #cardFive{
+        margin-left: 6.3rem;
+        margin-top: 4rem;
+    }
+
+    #cardSix{
+        margin-left: 6.3rem;
+        margin-top: 4rem;
+    }
+
+    #cardSeven{
+        margin-left: 6.3rem;
+        margin-top: 4rem;
+    }
+
+    #cardEight{
+        margin-left: 6.3rem;
+        margin-top: 4rem;
+    }
+
+    #cardNine{
+        margin-left: 6.3rem;
+        margin-top: 4rem;
     }
 
 
