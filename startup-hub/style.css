@@ -2,6 +2,7 @@
     font-family: 'Cabin', sans-serif;
     margin: 0;
     padding: 0;
+    max-width: 120rem;
 }
 #myLogo{
     margin-right: 1rem;
@@ -105,19 +106,126 @@
     color: #1f2430;
 }
 
+#explore{
+    padding-top: 5rem;
+    background-color: #f5f5f5;
+}
 
+#companies{
+    padding-bottom: 3rem;
+    font-size: 20px;
+    color: #1f2430;
+}
+
+#myCompanyLogos{
+    padding-bottom: 3rem;
+    padding-left: 10rem;
+}
+
+.category-section{
+    padding-top: 6.5rem;
+    padding-bottom: 3rem;
+}
+
+#explore-category{
+    color: #1f2430;
+    padding-left: 8rem;
+    font-size: 38px;
+    
+    
+}
+
+#explore span{
+    color: #283c86;
+
+}
+
+#cardOne{
+    margin-top: 5rem;
+    margin-left: 8rem;
+}
+
+#cardOne:hover{
+    box-shadow: 5px 5px #1f2430;
+    transform: scale(1.1);
+    cursor: pointer;
+    
+}
+
+#cardTwo{
+    margin-top: 5rem;
+    margin-left: -8rem;
+}
+
+#cardTwo:hover{
+    box-shadow: 5px 5px #283c86;
+    transform: scale(1.1);
+    cursor: pointer;
+    
+}
+
+#cardThree{
+    width: 13.3rem; 
+    height: 13.3rem;
+    margin-top: 5rem; 
+    margin-left: -24rem; 
+    cursor: pointer;
+}
+
+#cardThree:hover{
+    box-shadow: 5px 5px #8aa3ff;
+    transform: scale(1.1);
+    cursor: pointer;
+    
+}
+
+#cardFour{
+    cursor: pointer;
+    margin-left: 52rem;
+    margin-top: -14.8rem;
+    text-align: center;
+}
+
+#cardFour:hover{
+    box-shadow: 5px 5px #ccd4f5;
+    transform: scale(1.1);
+    cursor: pointer;
+    
+}
+
+#cardFive{
+    margin-left: 36.3rem;
+    margin-top: -14.8rem;
+}
+
+#cardFive:hover{
+    box-shadow: 5px 5px #e1e7ff;
+    transform: scale(1.1);
+    cursor: pointer;
+    
+}
+
+
+
+#software{
+    text-align: center;
+    color: #1f2430;
+}
 
 @media only screen and (max-width: 480px){
 
+    *{
+        box-sizing: border-box;
+    }
     #mainImg{
         display: none;
     }
 
     #title{
-        font-size: 45px;
-        width: 500%;
+        font-size: 35px;
+        width: 220%;
         padding-top: 4rem;
-        padding-left: 7rem;
+        padding-left: 8rem;
         padding-right: 3.5rem;
     }
 
@@ -153,6 +261,24 @@
         padding-right: 7rem;
         padding-left: 7rem;
         text-align: center;
+    }
+
+    #explore{
+        padding-top: 4rem;
+        background-color: #f5f5f5;
+    }
+
+    #companies{
+        color: #1f2430;
+        font-size: 20px;
+        padding-left: 0.8rem;
+        padding-right: 2.5rem;
+        padding-bottom: 1.4rem;
+    }
+
+    #myCompanyLogos{
+        padding-bottom: 2rem;
+        padding-left:1.2rem;
     }
 
 
