@@ -131,6 +131,7 @@
     color: #1f2430;
     padding-left: 8rem;
     font-size: 38px;
+    font-weight: bold;
 }
 
 #explore span{
@@ -263,14 +264,57 @@
     cursor: pointer; 
 }
 
-
-
-
-
 #software{
     text-align: center;
     color: #1f2430;
 }
+
+#jobs{
+    background-color: #f5f5f5;
+    padding-top: 6rem;
+    padding-left: 8rem;
+    overflow-x: hidden;
+}
+
+.jobs-title{
+    font-weight: bold;
+}
+.job-love{
+    padding-top: 1rem;
+}
+
+.job-love span{
+    color: #283c86;
+}
+
+
+
+
+
+#circle{
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    width: 1vw;
+    height: 1vw;
+    border-radius: 50%;
+    background-color: #b92b27;
+    border: 1px solid #b92b27;
+}
+
+.marketing-job{
+    color: #1f2430;
+    margin-top: -1.2rem;
+    margin-left: 2.9rem;
+}
+
+.cardOneText{
+    color: #1f2430;
+    font-size: 20px;
+}
+
+
+
+
 
 @media only screen and (max-width: 480px){
 
