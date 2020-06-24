@@ -420,6 +420,25 @@
 
 }
 
+.myBtn{
+    margin-top: 3rem;
+    outline: none;
+    color: white;
+    background-color: #283c86;
+    border: 0px;
+    font-size: 18px;
+    padding: 0 1rem;
+    margin-left: 33rem;
+    margin-bottom: 3rem;
+    height: 40px;
+    width: 150px;
+}
+
+.myBtn:hover{
+    background-color: white;
+    color: #283c86;
+    box-shadow: 5px 5px #505089;
+}
 
 
 @media only screen and (max-width: 480px){
@@ -493,7 +512,7 @@
 
     #explore-category{
         color: #1f2430;
-        padding-left: 8rem;
+        padding-left: 7.3rem;
         font-size: 27px;
         text-align: center;
         padding-right: 8.5rem;
@@ -501,41 +520,56 @@
     }
 
     #cardOne{
-        margin-left: 6.3rem;
+        margin-left: 5.7rem;
     }
     #cardTwo{
-        margin-left: 6.3rem;
+        margin-left: 5.7rem;
     }
 
     #cardThree{
-        margin-left: 6.3rem;
+        margin-left: 5.7rem;
     }
     #cardFour{
-        margin-left: 6.3rem;
+        margin-left: 5.7rem;
     }
     #cardFive{
-        margin-left: 6.3rem;
+        margin-left: 5.7rem;
         margin-top: 4rem;
     }
 
     #cardSix{
-        margin-left: 6.3rem;
+        margin-left: 5.7rem;
         margin-top: 4rem;
     }
 
     #cardSeven{
-        margin-left: 6.3rem;
+        margin-left: 5.7rem;
         margin-top: 4rem;
     }
 
     #cardEight{
-        margin-left: 6.3rem;
+        margin-left: 5.7rem;
         margin-top: 4rem;
     }
 
     #cardNine{
-        margin-left: 6.3rem;
+        margin-left: 5.7rem;
         margin-top: 4rem;
+    }
+
+    .jobs-title{
+        padding-left: 1.6rem;
+        padding-bottom: 1rem;
+    }
+
+    .job-love{
+        margin-left: -3.2rem;
+        padding-bottom: 2rem;
+    }
+
+    #jobCardOne{
+        margin-left: -5rem;
+        
     }
 
 
