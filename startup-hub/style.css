@@ -734,6 +734,31 @@
         border-radius: 50%;
     }
 
+    .startup-title{
+        margin-left: 0.2rem;
+    }
+
+    .startup-love{
+        margin-left: -5rem;
+    }
+
+    #startUpCardOne{
+       margin-top: 2rem;
+       margin-left: 1.5rem;
+    }
+
+    #startUpCardTwo{
+        margin-top: 2rem;
+        margin-left: 1.5rem;
+     }
+
+     #startUpCardThree{
+        margin-top: 2rem;
+        margin-left: 1.5rem;
+     }
+
+
+
     
 
     
