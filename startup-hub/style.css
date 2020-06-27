@@ -426,14 +426,34 @@
     color: white;
     background-color: #283c86;
     border: 0px;
-    font-size: 19px;
+    font-size: 14px;
     padding: 0 1.5rem;
     margin-bottom: 3rem;
     height: 50px;
     width: 157px;
 }
 
+.myBtn2{
+    margin-top: 3rem;
+    outline: none;
+    color: white;
+    background-color: #283c86;
+    border: 0px;
+    font-size: 14px;
+    padding: 0 1.5rem;
+    margin-bottom: 3rem;
+    margin-left: 8rem;
+    height: 50px;
+    width: 157px;
+}
+
 .myBtn:hover{
+    background-color: white;
+    color: #283c86;
+    box-shadow: 5px 5px #505089;
+}
+
+.myBtn2:hover{
     background-color: white;
     color: #283c86;
     box-shadow: 5px 5px #505089;
@@ -469,14 +489,29 @@
     margin-top: 2.3rem;
 }
 
+#startUpCardOne:hover{
+    box-shadow: 3px 3px #8aa3ff;
+    transform: scale(1.05);
+}
+
 #startUpCardTwo{
     margin-left: 3rem;
     margin-top: 2.3rem;
 }
 
+#startUpCardTwo:hover{
+    box-shadow: 3px 3px #8aa3ff;
+    transform: scale(1.05);
+}
+
 #startUpCardThree{
     margin-left: -2rem;
     margin-top: 2.3rem;
+}
+
+#startUpCardThree:hover{
+    box-shadow: 3px 3px #8aa3ff;
+    transform: scale(1.05);
 }
 
 .startup-image{
