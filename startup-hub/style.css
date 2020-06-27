@@ -428,7 +428,6 @@
     border: 0px;
     font-size: 19px;
     padding: 0 1.5rem;
-    margin-left: 33rem;
     margin-bottom: 3rem;
     height: 50px;
     width: 157px;
@@ -439,6 +438,73 @@
     color: #283c86;
     box-shadow: 5px 5px #505089;
 }
+
+
+#startups{
+    padding-top: 7rem;
+    background-color: #f5f5f5;
+    overflow-x: hidden;
+    
+}
+
+.startup-title, .startup-love{
+    padding-left: 8rem;
+
+}
+
+.startup-title{
+    padding-bottom: 1.2rem;
+    font-weight: bold;
+}
+
+.startup-love span{
+    color: #2b5eac;
+    font-weight: bold;
+}
+
+/* for the cards */
+
+#startUpCardOne{
+    margin-left: 7.8rem;
+    margin-top: 2.3rem;
+}
+
+#startUpCardTwo{
+    margin-left: 3rem;
+    margin-top: 2.3rem;
+}
+
+#startUpCardThree{
+    margin-left: -2rem;
+    margin-top: 2.3rem;
+}
+
+.startup-image{
+    margin: 1.6rem 0rem;
+}
+
+.startup-image3{
+    margin-left: -1.5rem;
+    margin-top: 1.6rem;
+    margin-bottom: 1.6rem;
+}
+
+.startUpOneText{
+    padding-bottom: 0.7rem;
+    font-size: 1.4rem;
+}
+
+.basic-text{
+    text-align: justify;
+    font-size: 15.5px;
+}
+
+.type-text{
+    margin-top: 2rem;
+    color: #76838e;
+    font-size: 14.5px;
+}
+
 
 
 @media only screen and (max-width: 480px){
@@ -632,6 +698,8 @@
         width: 3.5vw;
         border-radius: 50%;
     }
+
+    
 
     
 
