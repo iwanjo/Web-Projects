@@ -1,3 +1,38 @@
 *{
+    margin: 0;
+    padding: 0;
     font-family: 'Cabin', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(113, 139, 139);
+}
+
+header{
+    background-color: white;
+    padding: 20px;
+}
+
+header > h1{
+    color: rgb(36, 37, 71);
+    text-align: center;
+}
+
+.score-board{
+    border: 3px solid white;
+    width: 200px;
+    margin: 20px auto;
+    color: white;
+    font-size: 45px;
+    border-radius: 4px;
+    text-align: center;
+    padding: 15px 20px;
+}
+
+.badge{
+    background-color: #e25b4d;
+    color: white;
+    font-size: 14px;
+    padding: 2px 10px;
 }
