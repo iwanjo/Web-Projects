@@ -9,27 +9,37 @@
         <title>Tilani</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="./img/logo.png">
         <link rel="stylesheet" href="./style.css">
         <!-- CSS only -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> 
-    </head>
+        <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Manrope&display=swap" rel="stylesheet">    </head>
     <body>
 
         <!-- NavBar section -->
         <section id="navbar-area">
         <nav class="navbar navbar-expand-md navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <img src="./img/logo.png" alt="Tilani logo" height="50px">
+            <a class="navbar-brand" href="#">Tilani</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#">Marketplace</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Retail</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Features</a>
                     </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Integrations</a>
+                    </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="#">Pricing</a>
                     </li>
@@ -38,9 +48,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="{{ url('/login') }}">Login</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ url('/register') }}">Register</a>
-                    </li>
+                    <button type="button" class="btn btn-outline-primary">Try for Free</button>
                 </ul>
             </div>
         </nav>
