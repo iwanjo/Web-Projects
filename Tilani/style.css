@@ -9,10 +9,20 @@
     box-shadow: 1.6px 1px #cad7fa;
 }
 
+.navbar-brand{
+    padding-left: 3rem;
+    font-weight: bold;
+    color: #757F9A!important;
+}
+
 .nav-link{
     color: #757F9A!important;
     font-weight: bold;
     padding-left: 3rem!important;
+}
+
+.nav-link:hover{
+    color: #1565C0!important;
 }
 
 #loginText{
@@ -20,4 +30,19 @@
 }
 #btnFree{
     margin-right: 10rem;
+}
+
+/* Mobile responsiveness */
+@media only screen and (max-width: 480px){
+    .navbar-brand{
+        padding-left: 0rem;
+        font-size: 20px!important;
+    }
+
+    .nav-link{
+        padding-left: 0rem!important;
+        padding-top: 0.5rem!important;
+    }
+
+
 }
