@@ -10,9 +10,16 @@
 }
 
 .navbar-brand{
-    padding-left: 3rem;
+    padding-left: 0.3rem;
     font-weight: bold;
     color: #757F9A!important;
+}
+
+
+
+#logoImg:hover{
+    transform: scale(1.1);
+
 }
 
 .nav-link{
@@ -31,6 +38,57 @@
 #btnFree{
     margin-right: 10rem;
 }
+
+#banner{
+    padding-top: 6.5rem;
+}
+
+#dashboardImg{
+    margin-left: -4rem;
+}
+
+.banner-title{
+    font-weight: bold;
+    color: #667db6;
+    padding-top: 3rem;
+    font-size: 50px;
+    
+}
+
+.banner-text{
+    color: #667db6;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+#tryBtn{
+    font-size: 18px;
+    background-color: #667db6;
+    color: white;
+    outline: #667db6;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border: 1px solid #667db6;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius: 10px;
+}
+
+#tryBtn:hover{
+    color: #667db6;
+    background-color: white;
+}
+
+.credit-text{
+    color: #757F9A;
+    margin-top: -2.3rem;
+    margin-left: 9.3rem;
+}
+
+
 
 /* Mobile responsiveness */
 @media only screen and (max-width: 480px){
