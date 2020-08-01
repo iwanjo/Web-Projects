@@ -81,7 +81,7 @@
 }
 
 #tryBtn{
-    font-size: 18px;
+    font-size: 14px;
     background-color: #667db6;
     color: white;
     outline: #667db6;
@@ -103,14 +103,24 @@
 
 .credit-text{
     color: #757F9A;
-    margin-top: -2.3rem;
-    margin-left: 9.3rem;
+    margin-top: -2.1rem;
+    margin-left: 8rem;
 }
 
+@media screen and (min-width: 480px) and (max-width: 1224px){
+    *{
+        background-color: blueviolet!important;
+    }
 
+    #imgLogo{
+        display: none;
+    }
+}
 
 /* Mobile responsiveness */
-@media only screen and (max-width: 480px){
+/* @media only screen and (max-width: 480px){ */
+    @media screen and (min-width: 320px) and (max-width: 480px){
+    
     .navbar-brand{
         padding-left: 0rem;
         font-size: 20px!important;
@@ -168,3 +178,4 @@
     }
     
 }
+
