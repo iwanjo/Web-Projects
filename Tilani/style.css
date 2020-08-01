@@ -2,4 +2,22 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Manrope', sans-serif;}
+    font-family: 'Manrope', sans-serif;
+}
+
+#navbar-area{
+    box-shadow: 1.6px 1px #cad7fa;
+}
+
+.nav-link{
+    color: #757F9A!important;
+    font-weight: bold;
+    padding-left: 3rem!important;
+}
+
+#loginText{
+    padding-right: 5rem!important;
+}
+#btnFree{
+    margin-right: 10rem;
+}
