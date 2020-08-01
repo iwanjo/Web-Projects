@@ -37,7 +37,7 @@
 }
 #btnFree{
     margin-right: 10rem;
-    font-size: 18px;
+    font-size: 15px;
     background-color: white;
     color: #1565C0;
     outline: #667db6;
@@ -120,9 +120,11 @@
         padding-left: 0rem!important;
         padding-top: 0.5rem!important;
         text-align: center;
+        font-size: 14px;
     }
     div .dropdown-item{
         text-align: center;
+        font-size: 12px;
     }
 
     #loginText{
@@ -130,8 +132,9 @@
     }
 
     #btnFree{
-        margin-left: 7rem;
-        width: 40%;
+        margin-left: 8.4rem;
+        width: 28%;
+        font-size: 13px;
         
     }
     #banner{
@@ -144,17 +147,24 @@
 
     .banner-title{
         margin-left: -13rem;
-        font-size: 35px;
+        font-size: 30px;
         text-align: center;
     }
 
     .banner-text{
         margin-left: -12rem;
         padding: 2rem 1rem 1rem 1rem;
-        font-size: 13px;
+        font-size: 15px;
     }
+    #tryBtn{
+        font-size: 14px;
+        margin-left: -4.6rem;
 
-    .myFreeBtn{
     }
-
+    .credit-text{
+        margin-left: -5.5rem;
+        padding-top: 3rem;
+        font-size: 12px;
+    }
+    
 }
