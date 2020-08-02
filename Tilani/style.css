@@ -107,11 +107,36 @@
     margin-left: 8rem;
 }
 
+/* companies section */
+
+.companies{
+    padding-top: 11.5rem;
+}
+
+.button-group button{
+    background: transparent;
+    border: none;
+    /* margin-left: 30rem; */
+    
+    
+}
+
+.button-group button + button{
+    margin-left: 3rem;
+    
+}
+
+.text-company{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.grid{
+    padding-top: 4rem;
+}
 /* This media query is for when the screen is between 480 and 1224 px */
 @media screen and (min-width: 480px) and (max-width: 1224px){
-    *{
-        background-color: #c1c9e0!important;
-    }
+    
 
     #dashboardImg{
         display: none;
