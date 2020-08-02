@@ -107,14 +107,60 @@
     margin-left: 8rem;
 }
 
+/* This media query is for when the screen is between 480 and 1224 px */
 @media screen and (min-width: 480px) and (max-width: 1224px){
     *{
-        background-color: blueviolet!important;
+        background-color: #c1c9e0!important;
     }
 
-    #imgLogo{
+    #dashboardImg{
         display: none;
     }
+
+    .nav-link{
+        padding-left: 0rem!important;
+        padding-top: 0.5rem!important;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    div .dropdown-item{
+        text-align: center;
+        font-size: 12px;
+    }
+
+    #loginText{
+        margin-left: 4.8rem;
+    }
+
+    #btnFree{
+        margin-left: 18rem;
+        width: 15%;
+        font-size: 13px;
+        
+    }
+    #banner{
+        padding-top: 3rem;
+    }
+
+    .banner-title{
+        margin-left: -10rem;
+    }
+
+    .banner-text{
+        padding-top: 2rem;
+        margin-left: -12rem;
+    }
+
+    #tryBtn{
+        margin-left: -3.8rem;
+    }
+    .credit-text{
+        margin-left: -6rem;
+        padding-top: 3rem;
+    }
+
+    
 }
 
 /* Mobile responsiveness */
