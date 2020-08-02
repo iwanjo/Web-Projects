@@ -259,6 +259,29 @@
         padding-top: 3rem;
         font-size: 12px;
     }
+
+    .companies{
+        padding-top: 5rem;
+    }
+
+    .companies-title{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .button-group{
+        margin-left: 5.5rem;
+    }
+
+    .our-retail{
+        margin-left: 9.3rem;
+    }
+
+    .text-company{
+        padding-left: 0.5rem;
+    }
+
+    
     
 }
 
