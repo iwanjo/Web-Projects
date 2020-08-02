@@ -111,6 +111,7 @@
 
 .companies{
     padding-top: 13.5rem;
+    padding-bottom: 10rem;
 }
 
 .companies-title{
@@ -146,6 +147,30 @@
     padding-top: 5rem;
     
 }
+
+/* usage section */
+
+#usage{
+    background-color: #efeff0;
+    padding-top: 8rem;
+}
+
+
+.usage-title{
+    font-size: 45px;
+    font-weight: bold;
+    color: #667db6;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.usage-text{
+    text-align: center;
+    font-size: 20px;
+    color: #667db6;
+}
+
+
 /* This media query is for when the screen is between 480 and 1224 px */
 @media screen and (min-width: 480px) and (max-width: 1224px){
     
