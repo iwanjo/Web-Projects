@@ -278,8 +278,64 @@
     }
 
     .text-company{
-        padding-left: 0.5rem;
+        padding-top: 0.5rem;
     }
+
+    
+
+    #alto{
+        padding-left: 0.8rem;
+    }
+
+    #altoSpan{
+        margin-left: -1.8rem;
+    }
+
+    #palo{
+        padding-left: 0.8rem;
+    }
+
+    #creed{
+        padding-left: 0.3rem;
+    }
+
+    #decadence{
+        margin-left: -1rem;
+    }
+
+    #decadenceSpan{
+        margin-left: -2.7rem;
+    }
+
+    #soko{
+        margin-left: -1rem;
+    }
+
+    #sokoSpan{
+        margin-left: -2.8rem;
+    }
+
+    #tri{
+        margin-left: -0.5rem;
+    }
+
+    #triSpan{
+        margin-left: -2.5rem;
+    }
+    #triImg{
+        margin-left: .3rem;
+    }
+
+    .element-item{
+        background-color: #ffffff;
+        padding-bottom: 2rem;
+    }
+
+    
+
+    
+
+    
 
     
     
