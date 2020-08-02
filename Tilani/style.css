@@ -110,7 +110,14 @@
 /* companies section */
 
 .companies{
-    padding-top: 11.5rem;
+    padding-top: 13.5rem;
+}
+
+.companies-title{
+    padding-bottom: 3rem;
+    font-size: 45px;
+    font-weight: bold;
+    color: #667db6;
 }
 
 .button-group button{
@@ -120,6 +127,10 @@
     
     
 }
+
+
+
+
 
 .button-group button + button{
     margin-left: 3rem;
@@ -132,7 +143,8 @@
 }
 
 .grid{
-    padding-top: 4rem;
+    padding-top: 5rem;
+    
 }
 /* This media query is for when the screen is between 480 and 1224 px */
 @media screen and (min-width: 480px) and (max-width: 1224px){
