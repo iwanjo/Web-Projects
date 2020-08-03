@@ -154,7 +154,7 @@
     /* background-color: #efeff0; */
     padding-top: 8rem;
     background-color: #fff8e8;
-    padding-bottom: 10rem;
+    padding-bottom: 30rem;
 }
 
 
@@ -172,6 +172,8 @@
     color: #667db6;
 }
 
+/* section for the squares */
+
 .trial{
     margin-top: 20rem;
     background-color: white;
@@ -186,14 +188,34 @@
     
 }
 
+.trial2{
+    margin-top: -23rem;
+    background-color: white;
+    border: 2px solid white;
+    height: 200px;
+    width: 200px;
+    margin-left: 29rem;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
 .trial:hover{
     transform: scale(1.1);
 }
+
+.trial2:hover{
+    transform: scale(1.1);
+}
+
 
 #buzz{
     margin-left: 2rem;
     margin-top: -3rem;
 }
+
+
 
 .toy-store{
     padding-top: 2.3rem;
@@ -201,6 +223,11 @@
     padding-left: 3.5rem;
 }
 
+.boutique-store{
+    padding-top: 2.3rem;
+    padding-left: 2rem;
+    color: #667db6;
+}
 
 /* This media query is for when the screen is between 480 and 1224 px */
 @media screen and (min-width: 480px) and (max-width: 1224px){
