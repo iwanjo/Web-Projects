@@ -201,6 +201,20 @@
     border-bottom-right-radius: 30px;
 }
 
+.trial3{
+    margin-top: 8rem;
+    background-color: white;
+    border: 2px solid white;
+    height: 200px;
+    width: 200px;
+    margin-left: 29rem;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+}
+
 .trial:hover{
     transform: scale(1.1);
 }
@@ -209,9 +223,17 @@
     transform: scale(1.1);
 }
 
+.trial3:hover{
+    transform: scale(1.1);
+}
+
 
 #buzz{
     margin-left: 2rem;
+    margin-top: -3rem;
+}
+
+#nike{
     margin-top: -3rem;
 }
 
@@ -225,7 +247,13 @@
 
 .boutique-store{
     padding-top: 2.3rem;
-    padding-left: 2rem;
+    padding-left: 2.4rem;
+    color: #667db6;
+}
+
+.shoe-store{
+    padding-top: 2.3rem;
+    padding-left: 3.2rem;
     color: #667db6;
 }
 
