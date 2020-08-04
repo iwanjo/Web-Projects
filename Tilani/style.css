@@ -546,8 +546,33 @@
     }
 
     .trial{
-        margin-top: 2.5rem;
-        margin-left: 6.5rem;
+        margin-top: 2rem;
+        margin-left: 25%;
+    }
+
+    .trial2{
+        margin-top: 7rem;
+        margin-left: 25%;
+    }
+
+    .trial3{
+        margin-top: 7rem;
+        margin-left: 25%;
+    }
+
+    .trial4{
+        margin-top: 7rem;
+        margin-left: 25%;
+    }
+
+    .trial5{
+        margin-top: 7rem;
+        margin-left: 25%;
+    }
+
+    .trial6{
+        margin-top: 7rem;
+        margin-left: 25%;
     }
 
     
