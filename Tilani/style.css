@@ -231,7 +231,7 @@
 }
 
 .trial5{
-    margin-top: 10rem;
+    margin-top: 6rem;
     background-color: white;
     border: 2px solid white;
     height: 200px;
@@ -260,6 +260,10 @@
     transform: scale(1.1);
 }
 
+.trial5:hover{
+    transform: scale(1.1);
+}
+
 
 #buzz{
     margin-left: 2rem;
@@ -276,6 +280,10 @@
     margin-top: -3rem;
 }
 
+#bag{
+    margin-left: 2.5rem;
+    margin-top: -7rem;
+}
 
 
 .toy-store{
@@ -300,6 +308,11 @@
     padding-top: 3.3rem;
     color: #667db6;
     padding-left: 3.2rem;
+}
+
+.accessory-shop{
+    color: #667db6;
+    padding-left: 2.2rem;
 }
 
 /* This media query is for when the screen is between 480 and 1224 px */
