@@ -245,12 +245,12 @@
 }
 
 .trial6{
-    margin-top: 3rem;
+    margin-top: -22rem;
     background-color: white;
     border: 2px solid white;
     height: 200px;
     width: 200px;
-    margin-left: 55rem;
+    margin-left: 65rem;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
@@ -278,6 +278,10 @@
     transform: scale(1.1);
 }
 
+.trial6:hover{
+    transform: scale(1.1);
+}
+
 
 #buzz{
     margin-left: 2rem;
@@ -297,6 +301,12 @@
 #bag{
     margin-left: 2.5rem;
     margin-top: -7rem;
+}
+
+#stationery{
+    margin-left: .5rem;
+    margin-top: -2rem;
+
 }
 
 
@@ -327,6 +337,12 @@
 .accessory-shop{
     color: #667db6;
     padding-left: 2.2rem;
+}
+
+.stationery-store{
+    color: #667db6;
+    padding-left: 1.9rem;
+    padding-top: 3rem;
 }
 
 /* This media query is for when the screen is between 480 and 1224 px */
