@@ -530,6 +530,26 @@
         padding-bottom: 2rem;
     }
 
+    #usage{
+        padding-top: 7rem;
+    }
+
+    .usage-title{
+        font-size: 35px;
+    }
+
+    .usage-text{
+        font-size: 17px;
+        text-align: justify;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .trial{
+        margin-top: 2.5rem;
+        margin-left: 6.5rem;
+    }
+
     
 
     
