@@ -381,6 +381,11 @@
 
 }
 
+.marketplace-button:hover{
+    background-color: #4d66a3;
+    color: white;
+}
+
 /* This media query is for when the screen is between 480 and 1224 px */
 @media screen and (min-width: 480px) and (max-width: 1224px){
     
