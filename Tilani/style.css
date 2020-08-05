@@ -348,8 +348,9 @@
 /* marketplace section */
 
 #marketplace{
-    padding-top: 16rem;
+    padding-top: 13rem;
     padding-bottom: 20rem;
+    background-color:#fffafa;
 }
 
 .marketplace-title{
@@ -384,6 +385,19 @@
 .marketplace-button:hover{
     background-color: #4d66a3;
     color: white;
+}
+
+.marketcard1{
+    background-color: white;
+    border: 2px solid white;
+    height: 320px;
+    width: 250px;
+    margin-left: 50%; 
+    margin-top: -15%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
 
 /* This media query is for when the screen is between 480 and 1224 px */
