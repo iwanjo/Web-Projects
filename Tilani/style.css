@@ -345,6 +345,42 @@
     padding-top: 3rem;
 }
 
+/* marketplace section */
+
+#marketplace{
+    padding-top: 16rem;
+    padding-bottom: 20rem;
+}
+
+.marketplace-title{
+    color: #4d66a3;
+    font-weight: bold;
+    font-size: 45px;
+    padding-bottom: 2rem;
+}
+
+.marketplace-text{
+    font-size: 17px;
+    text-align: justify;
+    color: #667db6;
+    line-height: 1.8rem;
+    padding-bottom: 2rem;
+    max-width: 30%;
+}
+
+.marketplace-button{
+    background: transparent;
+    color: #4d66a3;
+    border: 1px solid #4d66a3;
+    font-size: 15px;
+    padding: .7rem;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+
+}
+
 /* This media query is for when the screen is between 480 and 1224 px */
 @media screen and (min-width: 480px) and (max-width: 1224px){
     
