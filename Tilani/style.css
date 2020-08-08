@@ -349,7 +349,7 @@
 
 #marketplace{
     padding-top: 13rem;
-    padding-bottom: 20rem;
+    padding-bottom: 8rem;
     background-color:#faf3f3;
 }
 
@@ -437,6 +437,12 @@
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
+}
+
+/* Cloud Section */
+
+#cloud{
+    padding-top: 10rem;
 }
 
 
