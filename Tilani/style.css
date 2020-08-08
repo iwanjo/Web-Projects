@@ -752,6 +752,37 @@
         margin-left: 19%;
     }
 
+    /* cloud section */
+
+    #cloud{
+        padding-top: 3rem;
+    }
+    #cloudImg{
+        display: none;
+    }
+
+    .cloud-title{
+        margin-left: -173%;
+        font-size: 30px;
+    }
+
+    .cloud-title br{
+        display: none;
+    }
+
+    .cloud-text{
+        margin-left: -180%;
+        font-size: 16px;
+        padding-top: 2rem;
+        text-align: center;
+        
+    }
+
+    #cloudBtn{
+        margin-left: -43%;
+        font-size: 14px;
+    }
+
     
 
     
