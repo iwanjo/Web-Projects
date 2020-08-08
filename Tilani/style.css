@@ -426,6 +426,19 @@
     border-bottom-right-radius: 30px;
 }
 
+.marketcard3{
+    background-color: white;
+    border: 2px solid white;
+    height: 320px;
+    width: 250px;
+    margin-left: 73%; 
+    margin-top: 8%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
 
 
 
