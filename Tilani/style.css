@@ -443,7 +443,7 @@
 
 #cloud{
     padding-top: 10rem;
-    padding-bottom: 20rem;
+    padding-bottom: 13rem;
     background: white;
 }
 
@@ -532,6 +532,73 @@
     margin-left: 1.4rem;
     padding-top: 1rem;
 }
+
+
+/* accounting integration section */
+
+#accounting{
+    padding-top: 8rem;
+    padding-bottom: 20rem;
+}
+
+#accounting .container{
+    background-color: #faf3f3;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#imgSection{
+    padding-top: 3rem;
+}
+
+.account-logo1{
+    height: 70px;
+    margin-left: -3%;
+}
+.finance{
+    height: 70px;
+    margin-left: 83%;
+}
+
+
+.accounting-title{
+    text-align: center;
+    padding-top: 2.5rem;
+    color: #4d66a3;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.accounting-text{
+    padding: 2rem 15rem;
+    text-align: center;
+    font-size: 19px;
+    color: #4d66a3;
+}
+
+.accountBtn{
+    margin-left: 45%;
+    background: #667db6;
+    color: white;
+    border: 1px solid #4d66a3;
+    font-size: 15px;
+    padding: .7rem;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    margin-bottom: 5rem;
+
+}
+
+.accountBtn:hover{
+    color: #4d66a3;
+    background-color: #faf3f3;
+}
+
+
 
 
 /* media query section */
