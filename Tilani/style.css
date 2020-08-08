@@ -444,7 +444,7 @@
 #cloud{
     padding-top: 10rem;
     padding-bottom: 20rem;
-    background: #cad7fa36;
+    background: white;
 }
 
 .cloud-title{
@@ -486,6 +486,7 @@
 #commerce{
     padding-bottom: 20rem;
     padding-top: 8rem;
+    background-color: #cad7fa36;
 }
 .commerce-title{
     color: #4d66a3;
@@ -806,6 +807,7 @@
 
     #cloud{
         padding-top: 3rem;
+        padding-bottom: 7rem;
     }
     #cloudImg{
         display: none;
@@ -833,6 +835,56 @@
         font-size: 14px;
     }
 
+    .commerce-title{
+        font-size: 35px;
+    }
+
+    .commerce-text{
+        font-size: 18px;
+        padding: 1.5rem 1.4rem;
+    }
+
+
+    #commerce-icons{
+        padding-top: 3rem;
+    }
+
+    .amazon{
+        margin-left: 55%;
+    }
+
+    .amazon-text{
+        margin-left: 0.5rem;
+        width: 400%;
+    }
+
+    .jumia{
+        margin-top: 11rem;
+        margin-left: -5.5rem;
+    }
+
+    .jumia-text{
+        margin-left: -2.3rem;
+        width: 400%;
+    }
+
+    .shopify{
+        margin-top: 30rem;
+        margin-left: -7rem;
+    }
+
+    .shopify-text{
+        margin-left: -5.5rem;
+    }
+
+    .walmart{
+        margin-top: 45rem;
+        margin-left: -11.2rem;
+    }
+
+    .walmart-text{
+        margin-left: -370%;
+    }
     
 
     
