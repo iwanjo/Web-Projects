@@ -547,6 +547,7 @@
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    padding-bottom: 3rem;
 }
 
 #imgSection{
@@ -597,6 +598,20 @@
     color: #4d66a3;
     background-color: #faf3f3;
 }
+
+#accountCard1{
+    background-color: white;
+    border: 2px solid white;
+    height: 120px;
+    width: 290px;
+    margin-top: 3rem;
+    
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
 
 
 
