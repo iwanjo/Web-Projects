@@ -675,6 +675,34 @@
         margin-left: 25%;
     }
 
+    /* marketplace section */
+
+    #marketplace{
+        padding-top: 5rem;
+    }
+
+    .marketplace-title{
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .marketplace-text{
+        font-size: 14px;
+        max-width: 100%;
+        text-align: center;
+        padding-top: 1.5rem;
+        
+    }
+
+    .marketplace-button{
+
+    }
+
+    .marketcard1{
+        margin-top: 5rem;
+        margin-left: 19%;
+    }
+
     
 
     
