@@ -443,6 +443,41 @@
 
 #cloud{
     padding-top: 10rem;
+    padding-bottom: 20rem;
+}
+
+.cloud-title{
+    padding-top: 3.5rem;
+    padding-left: 7rem;
+    color: #4d66a3;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.cloud-text{
+    padding-left: 7rem;
+    padding-top: 1.7rem;
+    color: #667db6;
+    font-size: 17px;
+}
+
+#cloudBtn{
+    background: #667db6;
+    margin-left: 7rem;
+    margin-top: 1.7rem;
+    color: white;
+    border: 1px solid #4d66a3;
+    font-size: 15px;
+    padding: .7rem;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+}
+
+#cloudBtn:hover{
+    background-color: white;
+    color: #4d66a3;
 }
 
 
