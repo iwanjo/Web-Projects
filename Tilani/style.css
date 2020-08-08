@@ -495,13 +495,42 @@
 }
 
 .commerce-text{
-    padding-top: 1.7rem;
+    padding-top: 3rem;
     color: #4d66a3;
     font-size: 21px;
     text-align: center;
 }
 
+#commerce-icons{
+    padding-top: 7rem;
+    padding-left: 7rem;
+}
 
+.jumia{
+    margin-top: -3.1rem;
+    margin-left: -2.5rem;
+}
+
+.amazon-text{
+    color: black;
+    margin-left: -1rem;
+    padding-top: 1rem;
+}
+
+.jumia-text{
+    margin-top: -2.5rem;
+    margin-left: 1rem;
+}
+
+.shopify-text{
+    margin-left: 1.4rem;
+    padding-top: 1rem;
+}
+
+.walmart-text{
+    margin-left: 1.4rem;
+    padding-top: 1rem;
+}
 
 
 /* media query section */
