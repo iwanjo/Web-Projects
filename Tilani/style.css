@@ -690,18 +690,28 @@
         font-size: 14px;
         max-width: 100%;
         text-align: center;
+        padding-right: 2rem;
+        padding-left: 2rem;
         padding-top: 1.5rem;
         
     }
 
+    .marketplace-text br{
+        display: none;
+        
+    }
+
     .marketplace-button{
+        margin-left: 35%;
 
     }
 
-    .marketcard1{
+    .marketcard1, .marketcard2, .marketcard3{
         margin-top: 5rem;
         margin-left: 19%;
     }
+
+    
 
     
 
