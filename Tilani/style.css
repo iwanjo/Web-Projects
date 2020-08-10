@@ -605,7 +605,20 @@
     height: 120px;
     width: 290px;
     margin-top: 1rem;
-    
+    margin-left: 10%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+#accountCard2{
+    background-color: white;
+    border: 2px solid white;
+    height: 120px;
+    width: 290px;
+    margin-top: 1rem;
+    margin-left: 50%;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
@@ -614,10 +627,25 @@
 
 .stockImg{
     height: 70px;
+    margin-top: 1.4rem;
+}
+
+.saleImg{
+    height: 70px;
+    margin-top: 1.4rem;
+    margin-left: 1rem;
 }
 
 .stock-title{
     color: #f5ceba;
+    padding-left: 5rem;
+    margin-top: -4rem;
+}
+
+.sale-title{
+    color: #f5ceba;
+    padding-left: 6rem;
+    margin-top: -2rem;
 }
 
 
