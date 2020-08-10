@@ -590,7 +590,7 @@
     border-top-right-radius: 13px;
     border-bottom-left-radius: 13px;
     border-bottom-right-radius: 13px;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
 
 }
 
@@ -604,7 +604,7 @@
     border: 2px solid white;
     height: 120px;
     width: 290px;
-    margin-top: 3rem;
+    margin-top: 1rem;
     
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
@@ -612,6 +612,13 @@
     border-bottom-right-radius: 30px;
 }
 
+.stockImg{
+    height: 70px;
+}
+
+.stock-title{
+    color: #f5ceba;
+}
 
 
 
