@@ -605,7 +605,7 @@
     height: 120px;
     width: 290px;
     margin-top: 1rem;
-    margin-left: 10%;
+    margin-left: 5%;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
@@ -617,8 +617,21 @@
     border: 2px solid white;
     height: 120px;
     width: 290px;
-    margin-top: 1rem;
-    margin-left: 50%;
+    margin-top: -7.5rem;
+    margin-left: 38%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+#accountCard3{
+    background-color: white;
+    border: 2px solid white;
+    height: 120px;
+    width: 290px;
+    margin-top: -7.5rem;
+    margin-left: 71%;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
@@ -636,6 +649,12 @@
     margin-left: 1rem;
 }
 
+.orderImg{
+    height: 70px;
+    margin-top: 1.4rem;
+    margin-left: .7rem;
+}
+
 .stock-title{
     color: #f5ceba;
     padding-left: 5rem;
@@ -645,7 +664,13 @@
 .sale-title{
     color: #f5ceba;
     padding-left: 6rem;
-    margin-top: -2rem;
+    margin-top: -4rem;
+}
+
+.order-title{
+    color: #f5ceba;
+    padding-left: 5.5rem;
+    margin-top: -3rem;
 }
 
 
