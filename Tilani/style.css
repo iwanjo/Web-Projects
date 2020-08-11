@@ -977,6 +977,12 @@
         font-size: 14px;
     }
 
+    /* commerce section */
+
+    #commerce{
+        padding-bottom: 8rem;
+    }
+
     .commerce-title{
         font-size: 35px;
     }
@@ -1027,6 +1033,10 @@
     .walmart-text{
         margin-left: -370%;
     }
+
+    /* account integration section */
+
+    
     
 
     
