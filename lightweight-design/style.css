@@ -1,5 +1,15 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Cabin', sans-serif;}
+
+/* Navbar section */
+.imgLogo{
+    height: 70px;
+}
+
+#name{
+    padding-left: 1rem;
+    font-size: 25px;
+    
 }
