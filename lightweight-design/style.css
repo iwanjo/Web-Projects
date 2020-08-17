@@ -4,12 +4,23 @@
     font-family: 'Cabin', sans-serif;}
 
 /* Navbar section */
+
+#navbar{
+    padding-top: 1rem;
+}
 .imgLogo{
-    height: 70px;
+    height: 60px;
+    margin-left: 2rem;
+    
+}
+
+.imgLogo:hover{
+    transform: scale(1.1);
 }
 
 #name{
     padding-left: 1rem;
-    font-size: 25px;
+    font-size: 19px;
+    color: #1945cd;
     
 }
