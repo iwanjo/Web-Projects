@@ -10,8 +10,7 @@
 }
 .imgLogo{
     height: 60px;
-    margin-left: 2rem;
-    
+    margin-left: 2rem;  
 }
 
 .imgLogo:hover{
@@ -24,3 +23,5 @@
     color: #1945cd;
     
 }
+
+/* main body section */
